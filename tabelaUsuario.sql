@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Table]
+(
+	[CPF] NCHAR(10) NOT NULL PRIMARY KEY, 
+    [Nome] NVARCHAR(MAX) NOT NULL, 
+    [Senha] NVARCHAR(MAX) NOT NULL, 
+    [CEP] NCHAR(10) NOT NULL, 
+    [Logradouro] NVARCHAR(MAX) NOT NULL
+)
