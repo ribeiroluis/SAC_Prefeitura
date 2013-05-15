@@ -11,9 +11,13 @@
                    <asp:ListItem>Lixo</asp:ListItem>
                   <asp:ListItem>Outros</asp:ListItem>
               </asp:DropDownList>
+        <asp:Button ID="btn_enviar" runat="server" Text="Enviar" style="margin-left:20px" OnClick="btn_enviar_Click"/>
           </div>
     <hr />
     <div style="margin-bottom:20px; margin-top:20px">
         <h3>Demandas</h3>
     </div>
+    <div style="margin-bottom:20px; margin-top:20px">
+        <asp:GridView ID="DtgDados" runat="server"></asp:GridView>        
+        </div>
 </asp:Content>
