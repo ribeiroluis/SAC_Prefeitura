@@ -16,6 +16,6 @@
     <div align=left style="margin-top:10px; margin-left:160px">
     <asp:Button ID="Button2" runat="server" 
         Text="Login" 
-        Width="50px"/>          
+        Width="50px" OnClick="Button2_Click"/>          
     </div>
 </asp:Content>

@@ -114,7 +114,7 @@ first child of the left and right table columns */
     color: #f9f9f9;
     line-height: 2em;
     font-size: 2em;
-	width: 800px;
+	width: 542px;
 }
 
 .main
@@ -252,7 +252,7 @@ div.accountInfo
     display: block;
     float: left;
     text-align: left;
-    width: auto;
+    width: 563px;
 }
 
 .loginDisplay

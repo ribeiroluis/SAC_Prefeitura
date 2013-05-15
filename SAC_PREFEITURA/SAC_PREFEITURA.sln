@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAC_PREFEITURA", "SAC_PREFEITURA\SAC_PREFEITURA.csproj", "{C4ACE04A-1419-4F2D-9C12-0013AEB04952}"
 EndProject
 Global
