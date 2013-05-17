@@ -138,6 +138,24 @@ namespace SAC_PREFEITURA.Modelos
 
             
         }
+
+        public bool AtualizarUsuario(Usuario x)
+        {
+            try
+            {
+                usuario.AtualizarUsuario(x.Nome, x.DataNascimento, x.CEP, x.Logradouro, x.Numero, x.Complemento, x.Bairro, x.Telefone_Fixo, x.Telefone_Celular, x.Email, x.CPF);
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+                throw;
+            }
+            finally
+            {
+                usuario.Connection.Close();
+            }
+        }
     }
 }
             

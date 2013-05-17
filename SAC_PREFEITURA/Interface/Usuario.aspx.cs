@@ -10,11 +10,38 @@ namespace SAC_PREFEITURA
 {
     public partial class _Default : System.Web.UI.Page
     {
-        Usuario x = new Usuario();
         
         protected void Page_Load(object sender, EventArgs e)
         {
-            x = (Usuario)Session["Usuario"];
+            if (LbCPFLogin.Text.Equals("0"))
+            {
+                Usuario x = new Usuario();
+                x = (Usuario)Session["Usuario"];
+                CarregarDados(x);
+            }
+            
+        }
+
+        protected void LinkButtonAtualizarDados_Click(object sender, EventArgs e)
+        {
+            Usuario x = new Usuario();
+            x.Bairro = TxBairro.Text;
+            x.CEP = TxCEP.Text;
+            x.Complemento = TxComplemento.Text;
+            x.DataNascimento= DateTime.Parse(TxDTNascimento.Text);
+            x.Email = TxEmail.Text;
+            x.Logradouro = TxLogradouro.Text;
+            x.Nome = TXNome.Text;
+            x.Numero = int.Parse(TxNumero.Text);
+            x.Telefone_Fixo = TxFixo.Text;
+            x.Telefone_Celular = TxCell.Text;
+            x.CPF = LbCPFLogin.Text;
+            x.AtualizarUsuario(x);
+            CarregarDados(x.LerUsuario(x.CPF));
+        }
+
+        private void CarregarDados(Usuario x)
+        {
             TxBairro.Text = x.Bairro;
             TxCEP.Text = x.CEP;
             TxComplemento.Text = x.Complemento;

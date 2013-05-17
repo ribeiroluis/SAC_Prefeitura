@@ -118,5 +118,10 @@ namespace SAC_PREFEITURA.Contole
         {
             return bdUsuario.PesquisaDataTable(user);
         }
+
+        public bool AtualizarUsuario(Usuario user)
+        {
+            return bdUsuario.AtualizarUsuario(user);
+        }
     }
 }

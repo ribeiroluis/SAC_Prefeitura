@@ -4,7 +4,7 @@
     </asp:Content>
     
     <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    CPF - Login: <asp:Label ID="LbCPFLogin" runat="server" Text="Label"></asp:Label>        
+    CPF - Login: <asp:Label ID="LbCPFLogin" runat="server" Text="0"></asp:Label>        
         <asp:Panel ID="PainelDados" runat="server">
           <div style="margin-bottom:20px">
           <h2>Dados do usuário</h2>
@@ -26,20 +26,22 @@
           <div style="margin-bottom:20px">
               Telefone Fixo:<asp:TextBox ID="TxFixo" runat ="server" style ="margin-right:20px; margin-left: 20px" Width="100px"></asp:TextBox>
               Telefone Celular:<asp:TextBox ID="TxCell" runat ="server" style ="margin-right:20px; margin-left: 20px" Width="100px"></asp:TextBox>
-              E-Mail:<asp:TextBox ID="TxEmail" runat ="server" style ="margin-right:20px; margin-left: 20px" Width="300px" OnTextChanged="TxEmail_TextChanged"></asp:TextBox>
+              E-Mail:<asp:TextBox ID="TxEmail" runat ="server" style ="margin-right:20px; margin-left: 20px" Width="300px"></asp:TextBox>
               <br />
-              <asp:LinkButton ID="LinkButtonAtualizarDados" runat="server">Atualizar dados.</asp:LinkButton>
+              <br />
+              <asp:LinkButton ID="LinkButtonAtualizarDados" runat="server" OnClick="LinkButtonAtualizarDados_Click" >Atualizar dados.</asp:LinkButton>
           </div>            
           <hr />    
           <div style="margin-bottom: 20px">
           <h2>Dados da ocorrência</h2>
-              Serviço solicitato:<asp:DropDownList ID="cbServicos" runat="server" Height="20px" style="font-size:12px; margin-left: 19px;" Width="200px">
+              Serviço solicitato:<asp:DropDownList ID="cbServicos" runat="server" Height="20px" style="font-size:12px; margin-left: 19px;" Width="200px" DataSourceID="AccessDataSource1" DataTextField="DESCRICAO" DataValueField="ID">
                    <asp:ListItem>Capina</asp:ListItem>
                    <asp:ListItem>Entulho</asp:ListItem>
                    <asp:ListItem>Animal em via pública</asp:ListItem>
                    <asp:ListItem>Lixo</asp:ListItem>
                   <asp:ListItem>Outros - Especifique</asp:ListItem>
               </asp:DropDownList>              
+              <asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="~/App_Data/BDSacPrefeitura.mdb" SelectCommand="SELECT [DESCRICAO], [ID], [IDSETOR] FROM [TipoDemanda] ORDER BY [DESCRICAO]"></asp:AccessDataSource>
               <br />
               <br />
               Logradouro:<asp:TextBox ID="TxLogradouroOcorrencia" runat="server" Style="margin-right: 20px; margin-left: 20px" Width="350px"></asp:TextBox>

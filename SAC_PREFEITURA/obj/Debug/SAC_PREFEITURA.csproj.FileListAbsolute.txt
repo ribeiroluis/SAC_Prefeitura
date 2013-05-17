@@ -24,3 +24,10 @@ K:\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.Properties.Resources.r
 K:\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.csproj.GenerateResource.Cache
 K:\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.dll
 K:\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.pdb
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\SAC_PREFEITURA.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\SAC_PREFEITURA.pdb
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.csprojResolveAssemblyReference.cache
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.Properties.Resources.resources
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.csproj.GenerateResource.Cache
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.pdb
