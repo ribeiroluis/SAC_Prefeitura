@@ -1,0 +1,19 @@
+C:\Documents and Settings\luishr\Meus documentos\Visual Studio 2010\Projects\SAC_PREFEITURA\SAC_PREFEITURA\bin\SAC_PREFEITURA.dll
+C:\Documents and Settings\luishr\Meus documentos\Visual Studio 2010\Projects\SAC_PREFEITURA\SAC_PREFEITURA\bin\SAC_PREFEITURA.pdb
+C:\Documents and Settings\luishr\Meus documentos\Visual Studio 2010\Projects\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\luishr\Meus documentos\Visual Studio 2010\Projects\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.dll
+C:\Documents and Settings\luishr\Meus documentos\Visual Studio 2010\Projects\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.pdb
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_Prefeitura\SAC_PREFEITURA\SAC_PREFEITURA\bin\SAC_PREFEITURA.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_Prefeitura\SAC_PREFEITURA\SAC_PREFEITURA\bin\SAC_PREFEITURA.pdb
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_Prefeitura\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.Properties.Resources.resources
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_Prefeitura\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.csproj.GenerateResource.Cache
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_Prefeitura\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_Prefeitura\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.pdb
+C:\Documents and Settings\luishr\Desktop\SAC_PREFEITURA\SAC_PREFEITURA\bin\SAC_PREFEITURA.dll
+C:\Documents and Settings\luishr\Desktop\SAC_PREFEITURA\SAC_PREFEITURA\bin\SAC_PREFEITURA.pdb
+C:\Documents and Settings\luishr\Desktop\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\luishr\Desktop\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.Properties.Resources.resources
+C:\Documents and Settings\luishr\Desktop\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\luishr\Desktop\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\luishr\Desktop\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.dll
+C:\Documents and Settings\luishr\Desktop\SAC_PREFEITURA\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.pdb
