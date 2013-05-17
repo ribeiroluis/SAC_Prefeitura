@@ -54,6 +54,12 @@ namespace SAC_PREFEITURA
             TxCell.Text = x.Telefone_Celular;
             LbCPFLogin.Text = x.CPF;
         }
+
+        protected void BtnConfirmar_Click(object sender, EventArgs e)
+        {
+            Demandas d = new Demandas();
+            //d.IdTipoDemanda = cbServicos.DataValueField.
+        }
         
     }
 }

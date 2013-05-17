@@ -58,7 +58,7 @@
           <hr />
           <div style="margin-bottom: 20px">                  
                  <asp:Button ID="BtnConfirmar" runat="server" Text="Inserir demanda" 
-                      Style="margin-right: 20px; margin-left: 20px" Width="137px" Height="30px"/>                   
+                      Style="margin-right: 20px; margin-left: 20px" Width="137px" Height="30px" OnClick="BtnConfirmar_Click"/>                   
               </div>
             </asp:Panel>             
     

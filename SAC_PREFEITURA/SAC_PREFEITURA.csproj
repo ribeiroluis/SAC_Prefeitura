@@ -112,6 +112,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BD_SAC_Prefeitura.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Contole\Demandas.cs" />
     <Compile Include="Contole\Usuario.cs" />
     <Compile Include="Contole\ValidarCPF.cs" />
     <Compile Include="Default.aspx.cs">

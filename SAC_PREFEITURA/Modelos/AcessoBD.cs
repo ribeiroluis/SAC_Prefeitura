@@ -13,6 +13,9 @@ namespace SAC_PREFEITURA.Modelos
     {
     }
 
+    /// <summary>
+    /// Acesso ao banco de Dados Tabela Usuarios
+    /// </summary>
     public class AcessoUsuario
     {
         UsuarioTableAdapter usuario = new UsuarioTableAdapter();
@@ -156,6 +159,33 @@ namespace SAC_PREFEITURA.Modelos
                 usuario.Connection.Close();
             }
         }
+    }
+
+    /// <summary>
+    /// Acesso ao banco de Dados Tabela Demandas, UsuarioDemanda
+    /// </summary>
+    public class AcessoDemandas
+    {
+        DemandasTableAdapter dbDemandas = new DemandasTableAdapter();
+
+        public bool IncluirDemanda(Demandas x)
+        {
+            try
+            {
+                dbDemandas.InserirDemanda(x.IdTipoDemanda, x.LogradouroDemanda, x.NumeroDemanda, x.ComplementoDemanda, x.BairroDemanda, x.DescricaoDemanda);
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+                throw;
+            }
+            finally
+            {
+                dbDemandas.Connection.Close();
+            }
+        }
+ 
     }
 }
             
