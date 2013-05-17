@@ -13,31 +13,31 @@ namespace SAC_PREFEITURA {
     public partial class _Default {
         
         /// <summary>
-        /// TextBox2 control.
+        /// txCPF control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txCPF;
         
         /// <summary>
-        /// Button2 control.
+        /// txSenha control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.TextBox txSenha;
         
         /// <summary>
-        /// cbServicos control.
+        /// btnLogar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cbServicos;
+        protected global::System.Web.UI.WebControls.Button btnLogar;
         
         /// <summary>
         /// TXNome control.
@@ -128,6 +128,15 @@ namespace SAC_PREFEITURA {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxEmail;
+        
+        /// <summary>
+        /// cbServicos control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList cbServicos;
         
         /// <summary>
         /// TxLogradouroOcorrencia control.

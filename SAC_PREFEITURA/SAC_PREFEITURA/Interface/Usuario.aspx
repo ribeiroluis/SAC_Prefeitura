@@ -7,23 +7,17 @@
     <div style="margin-bottom:20px">
     <h2> Login Usuário</h2>
     <br />
-              CPF: <asp:TextBox ID="TextBox2" runat ="server" style ="margin-right:20px; margin-left: 20px"></asp:TextBox>
-              Senha:<input id="Password1" type="password"  style ="margin-right:20px; margin-left: 20px"/>
-              <asp:Button ID="Button2" runat="server" style="margin-right:20px; margin-left: 20px" Text="Cadastrar / Login" Width="149px" />
+              CPF: <asp:TextBox ID="txCPF" 
+            runat ="server" style ="margin-right:20px; margin-left: 20px"></asp:TextBox>
+              Senha:
+              <asp:TextBox ID="txSenha" runat="server" TextMode="Password"></asp:TextBox>
+              
+              
+              &nbsp;<asp:Button ID="btnLogar" runat="server" 
+            style="margin-right:20px; margin-left: 20px" Text="Login" 
+            Width="149px" onclick="Button2_Click" />
           </div>
-          <hr />
-          <h2> Tipo de Ocorrência</h2>
-          <br />
-          <div style="margin-bottom:20px">
-              Serviço solicitato:<asp:DropDownList ID="cbServicos" runat="server" Height="20px" style="font-size:12px; margin-left: 19px;" Width="200px">
-                   <asp:ListItem>Capina</asp:ListItem>
-                   <asp:ListItem>Entulho</asp:ListItem>
-                   <asp:ListItem>Animal em via pública</asp:ListItem>
-                   <asp:ListItem>Lixo</asp:ListItem>
-                  <asp:ListItem>Outros - Especifique</asp:ListItem>
-
-              </asp:DropDownList>
-          </div>
+              
           <hr />
           <div style="margin-bottom:20px">
           <h2>Dados do usuário</h2>
@@ -48,9 +42,17 @@
               E-Mail:<asp:TextBox ID="TxEmail" runat ="server" style ="margin-right:20px; margin-left: 20px" Width="300px"></asp:TextBox>
           </div>
           <hr />
+    <h2>Dados da ocorrência</h2>
           <div style="margin-bottom: 20px">
-              <h2>Dados da ocorrência</h2>
-              <p>&nbsp;</p>
+              Serviço solicitato:<asp:DropDownList ID="cbServicos" runat="server" Height="20px" style="font-size:12px; margin-left: 19px;" Width="200px">
+                   <asp:ListItem>Capina</asp:ListItem>
+                   <asp:ListItem>Entulho</asp:ListItem>
+                   <asp:ListItem>Animal em via pública</asp:ListItem>
+                   <asp:ListItem>Lixo</asp:ListItem>
+                  <asp:ListItem>Outros - Especifique</asp:ListItem>
+              </asp:DropDownList>              
+              <br />
+              <br />
               Logradouro:<asp:TextBox ID="TxLogradouroOcorrencia" runat="server" Style="margin-right: 20px; margin-left: 20px" Width="350px"></asp:TextBox>
               nº:<asp:TextBox ID="TxNumeroOcorrencia" runat="server" Style="margin-right: 20px; margin-left: 20px" Width="50px"></asp:TextBox>
               Complemento:<asp:TextBox ID="TxComplementoOcorrencia" runat="server" Style="margin-right: 20px; margin-left: 20px" Width="90px"></asp:TextBox>              
@@ -65,6 +67,6 @@
           <hr />
           <div style="margin-bottom: 20px">                  
                  <asp:Button ID="BtnConfirmar" runat="server" Text="Inserir demanda" 
-                      Style="margin-right: 20px; margin-left: 20px" Width="108px" Height="30px"/>                   
+                      Style="margin-right: 20px; margin-left: 20px" Width="137px" Height="30px"/>                   
               </div>
 </asp:Content>
