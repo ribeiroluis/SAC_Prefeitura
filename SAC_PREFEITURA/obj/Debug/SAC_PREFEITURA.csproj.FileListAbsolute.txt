@@ -38,3 +38,22 @@ C:\Documents and Settings\426193\Desktop\SAC_Prefeitura-master\SAC_PREFEITURA\ob
 C:\Documents and Settings\426193\Desktop\SAC_Prefeitura-master\SAC_PREFEITURA\obj\Debug\GenerateResource.write.1.tlog
 C:\Documents and Settings\426193\Desktop\SAC_Prefeitura-master\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.dll
 C:\Documents and Settings\426193\Desktop\SAC_Prefeitura-master\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.pdb
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.csprojResolveAssemblyReference.cache
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\AjaxControlToolkit.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\AjaxControlToolkit.pdb
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\bin\zh-CHT\AjaxControlToolkit.resources.dll

@@ -1,5 +1,7 @@
 ﻿<%@ Page Title="SAC - PREFEITURA DE BETIM .:. USUARIO" Language="C#" MasterPageFile="Site.master" AutoEventWireup="true"
     CodeBehind="Usuario.aspx.cs" Inherits="SAC_PREFEITURA._Default" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
     <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
     </asp:Content>
     
@@ -10,7 +12,10 @@
           <h2>Dados do usuário</h2>
           <br />
               Nome:<asp:TextBox ID="TXNome" runat ="server" style ="margin-right:20px; margin-left: 20px" Width="500px"></asp:TextBox>
-              DataNacimento(dd/mm/aaaa):<asp:TextBox ID="TxDTNascimento" runat ="server" style ="margin-right:20px; margin-left: 20px" Width="100px"></asp:TextBox>
+              DataNacimento(dd/mm/aaaa):
+              <asp:ToolkitScriptManager ID="ToolkitScriptManager1" EnableScriptGlobalization="true" runat="server"></asp:ToolkitScriptManager>              
+              <asp:TextBox ID="TxDTNascimento" runat ="server" style ="margin-right:20px; margin-left: 20px" Width="100px"></asp:TextBox>
+              <asp:CalendarExtender ID="CalendarExtender1" TargetControlID="TxDTNascimento" runat="server"></asp:CalendarExtender>              
           </div>
           <div style="margin-bottom:20px">
               CEP:<asp:TextBox ID="TxCEP" runat ="server" style ="margin-right:20px; margin-left: 20px" Width="90px"></asp:TextBox>

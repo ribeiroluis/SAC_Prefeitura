@@ -39,7 +39,7 @@ namespace SAC_PREFEITURA
             x.Bairro = TxBairro.Text.ToUpper();
             x.CEP = TxCEP.Text;
             x.Complemento = TxComplemento.Text;
-            x.DataNascimento= DateTime.Parse(TxDTNascimento.Text);
+            x.DataNascimento = DateTime.Parse(TxDTNascimento.Text);
             x.Email = TxEmail.Text.ToUpper();
             x.Logradouro = TxLogradouro.Text.ToUpper();
             x.Nome = TXNome.Text.ToUpper();
