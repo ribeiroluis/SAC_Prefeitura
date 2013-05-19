@@ -107,6 +107,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BD_SAC_Prefeitura.cs">
+      <DependentUpon>BD_SAC_Prefeitura.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="BD_SAC_Prefeitura.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

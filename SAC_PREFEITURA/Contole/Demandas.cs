@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data;
+using SAC_PREFEITURA.Modelos;
 
 namespace SAC_PREFEITURA.Contole
 {
     public class Demandas
     {
+        AcessoDemandas bdDemandas = new AcessoDemandas();
 
         #region Atributos
         private int iddemanda;
@@ -67,10 +70,12 @@ namespace SAC_PREFEITURA.Contole
         }
         #endregion Atributos
 
-        public void InserirDemanda(Demandas demanda)
+        public void InserirDemanda(Demandas demanda, string cpf)
         {
- 
+            bdDemandas.IncluirDemanda(demanda);
+            bdDemandas.IncluirUsuarioDemanda(cpf);
         }
 
+        
     }
 }

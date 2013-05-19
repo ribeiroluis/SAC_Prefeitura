@@ -30,3 +30,11 @@ C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\obj\Debug
 C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.csproj.GenerateResource.Cache
 C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.dll
 C:\Users\LuisHenrique\Documents\Projetos\SAC_Prefeitura\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.pdb
+C:\Documents and Settings\426193\Desktop\SAC_Prefeitura-master\SAC_PREFEITURA\bin\SAC_PREFEITURA.dll
+C:\Documents and Settings\426193\Desktop\SAC_Prefeitura-master\SAC_PREFEITURA\bin\SAC_PREFEITURA.pdb
+C:\Documents and Settings\426193\Desktop\SAC_Prefeitura-master\SAC_PREFEITURA\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\426193\Desktop\SAC_Prefeitura-master\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.Properties.Resources.resources
+C:\Documents and Settings\426193\Desktop\SAC_Prefeitura-master\SAC_PREFEITURA\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\426193\Desktop\SAC_Prefeitura-master\SAC_PREFEITURA\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\426193\Desktop\SAC_Prefeitura-master\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.dll
+C:\Documents and Settings\426193\Desktop\SAC_Prefeitura-master\SAC_PREFEITURA\obj\Debug\SAC_PREFEITURA.pdb

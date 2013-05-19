@@ -159,6 +159,26 @@ namespace SAC_PREFEITURA.Modelos
                 usuario.Connection.Close();
             }
         }
+
+        public DataTable DemandasPorUsuario(string cpf)
+        {
+            ViewDemandasPorUsuarioTableAdapter view = new ViewDemandasPorUsuarioTableAdapter();
+            try
+            {
+                
+                return view.GetData(cpf);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                view.Connection.Close();
+            }
+            
+        }
     }
 
     /// <summary>
@@ -167,6 +187,7 @@ namespace SAC_PREFEITURA.Modelos
     public class AcessoDemandas
     {
         DemandasTableAdapter dbDemandas = new DemandasTableAdapter();
+        UsuarioDemandaTableAdapter dbUsuarioDemanda = new UsuarioDemandaTableAdapter();
 
         public bool IncluirDemanda(Demandas x)
         {
@@ -183,6 +204,26 @@ namespace SAC_PREFEITURA.Modelos
             finally
             {
                 dbDemandas.Connection.Close();
+            }
+        }
+
+        public bool IncluirUsuarioDemanda(string cpf)
+        {
+            DateTime agora = DateTime.Now;
+            try
+            {
+                int iddemanda = (int)dbDemandas.RetornaUltimoID();
+                dbUsuarioDemanda.InserirUsuarioDemanda(cpf, iddemanda, agora);
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+                throw;
+            }
+            finally
+            {
+                dbUsuarioDemanda.Connection.Close();
             }
         }
  

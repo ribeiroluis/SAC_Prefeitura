@@ -60,6 +60,25 @@
                  <asp:Button ID="BtnConfirmar" runat="server" Text="Inserir demanda" 
                       Style="margin-right: 20px; margin-left: 20px" Width="137px" Height="30px" OnClick="BtnConfirmar_Click"/>                   
               </div>
-            </asp:Panel>             
+              <hr />
+            </asp:Panel>
+
+        <asp:Panel ID="PainelDemandas" runat="server">
+        <h3>Demandas Cadastradas</h3>
+        <asp:GridView ID="DtgDados" runat="server" CellPadding="4" ForeColor="#333333" 
+                BorderWidth="2px">
+            <AlternatingRowStyle BackColor="White" />
+            <EditRowStyle BackColor="#2461BF" BorderColor="Black" BorderWidth="2px" />
+            <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+            <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+            <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+            <RowStyle BackColor="#EFF3FB" />
+            <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+            <SortedAscendingCellStyle BackColor="#F5F7FB" />
+            <SortedAscendingHeaderStyle BackColor="#6D95E1" />
+            <SortedDescendingCellStyle BackColor="#E9EBEF" />
+            <SortedDescendingHeaderStyle BackColor="#4870BE" />
+        </asp:GridView>
+        </asp:Panel>             
     
     </asp:Content>

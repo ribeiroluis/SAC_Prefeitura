@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using SAC_PREFEITURA.Modelos;
+using System.Data;
 
 
 namespace SAC_PREFEITURA.Contole
@@ -123,5 +124,11 @@ namespace SAC_PREFEITURA.Contole
         {
             return bdUsuario.AtualizarUsuario(user);
         }
+        
+        public DataTable DemandasPorUsuario(string cpf)
+        {
+            return bdUsuario.DemandasPorUsuario(cpf);
+        }
+
     }
 }
