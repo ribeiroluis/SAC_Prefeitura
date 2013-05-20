@@ -130,5 +130,11 @@ namespace SAC_PREFEITURA.Contole
             return bdUsuario.DemandasPorUsuario(cpf);
         }
 
+        public string ConsultarCEP(string cep)
+        {
+            WebServiceCEP objcep = new WebServiceCEP();
+            return objcep.BuscaCEP(cep);
+        }
+
     }
 }

@@ -228,5 +228,34 @@ namespace SAC_PREFEITURA.Modelos
         }
  
     }
+
+    /// <summary>
+    /// Acesso ao banco de dados AcessoSistema
+    /// </summary>
+    public class AcessoSistema
+    {
+        AcessoSistemaTableAdapter acessar;
+
+        public AcessoSistema()
+        {
+            acessar = new AcessoSistemaTableAdapter();
+        }
+
+        public bool ValidarAcesso(AdmSistema x)
+        {
+            var aux = acessar.ValidarUsuarioSenha(x.LoginFuncionario, x.SenhaFuncionario);
+            
+            if (aux!=null)
+            {
+                return true;
+            }
+            else
+                return false;
+        }
+
+
+    }
 }
+
+
             

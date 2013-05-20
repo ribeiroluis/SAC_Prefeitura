@@ -109,6 +109,12 @@ namespace SAC_PREFEITURA
                 Page_Load(sender, e);
             }   
         }
+
+        protected void LinkButtonConsultarCEP_Click(object sender, EventArgs e)
+        {
+            x = new Usuario();
+            string cep = x.ConsultarCEP(TxCEP.Text);
+        }
         
     }
 }

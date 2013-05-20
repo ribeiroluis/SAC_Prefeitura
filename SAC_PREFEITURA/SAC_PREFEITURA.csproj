@@ -89,6 +89,7 @@
     <Content Include="Arquivos\logo.gif" />
     <Content Include="Default.aspx" />
     <Content Include="icone.ico" />
+    <Content Include="Interface\AdmSistema.aspx" />
     <Content Include="Interface\Demandas.aspx" />
     <Content Include="Interface\Login.aspx" />
     <Content Include="Account\ChangePassword.aspx" />
@@ -120,7 +121,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BD_SAC_Prefeitura.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Contole\BuscaCEP.cs" />
+    <Compile Include="Contole\AdmSistema.cs" />
+    <Compile Include="Contole\WebServiceCEP.cs" />
     <Compile Include="Contole\Demandas.cs" />
     <Compile Include="Contole\Usuario.cs" />
     <Compile Include="Contole\ValidarCPF.cs" />
@@ -130,6 +132,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\AdmSistema.aspx.cs">
+      <DependentUpon>AdmSistema.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Interface\AdmSistema.aspx.designer.cs">
+      <DependentUpon>AdmSistema.aspx</DependentUpon>
     </Compile>
     <Compile Include="Interface\Demandas.aspx.cs">
       <DependentUpon>Demandas.aspx</DependentUpon>

@@ -8,6 +8,6 @@
         região. Clique na aba Acesso Usuário para incluir um novo serviço. Se é o seu 
         primeio acesso ao site, você deverá realizar um cadastro simples previamente.</p>
     <p style="text-align: right; font-size:20px">
-        Obrigado por ser um responsável social e multiplicador de ações.
+        Obrigado por fazer parte do "Controle Social" e multiplicador de ações.
     </p>
 </asp:Content>

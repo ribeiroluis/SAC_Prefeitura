@@ -10,8 +10,8 @@
     <div align=left style="margin-left:50px">
     Login: <asp:TextBox ID="txboxlogin" runat ="server" style ="margin-right:20px; margin-left: 20px; margin-top:10px; width:100px"></asp:TextBox>
     </div>
-    <div align=left style="margin-left:50px">
-    Senha:<input id="txsenhafuncionario" type="password"  style ="margin-right:20px; margin-left: 20px; margin-top:10px; width:100px"/>
+    <div align=left style="margin-left:50px">        
+    Senha:<asp:TextBox ID="txSenha" runat="server" TextMode="Password" style ="margin-right:20px; margin-left: 20px; margin-top:10px; width:100px"/></asp:TextBox>
     </div>
     <div align=left style="margin-top:10px; margin-left:160px">
     <asp:Button ID="Button2" runat="server" 

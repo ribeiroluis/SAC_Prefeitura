@@ -12,14 +12,16 @@
           <h2>Dados do usuário</h2>
           <br />
               Nome:<asp:TextBox ID="TXNome" runat ="server" style ="margin-right:20px; margin-left: 20px" Width="500px"></asp:TextBox>
-              DataNacimento(dd/mm/aaaa):
+              DataNacimento:
               <asp:ToolkitScriptManager ID="ToolkitScriptManager1" EnableScriptGlobalization="true" runat="server"></asp:ToolkitScriptManager>              
               <asp:TextBox ID="TxDTNascimento" runat ="server" style ="margin-right:20px; margin-left: 20px" Width="100px"></asp:TextBox>
               <asp:CalendarExtender ID="CalendarExtender1" TargetControlID="TxDTNascimento" runat="server"></asp:CalendarExtender>              
           </div>
           <div style="margin-bottom:20px">
               CEP:<asp:TextBox ID="TxCEP" runat ="server" style ="margin-right:20px; margin-left: 20px" Width="90px"></asp:TextBox>
-              Logradouro:<asp:TextBox ID="TxLogradouro" runat ="server" style ="margin-right:20px; margin-left: 20px" Width="350px"></asp:TextBox>
+              <asp:LinkButton ID="LinkButtonConsultarCEP" runat="server" 
+                  onclick="LinkButtonConsultarCEP_Click">Buscar CEP</asp:LinkButton>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Logradouro:<asp:TextBox ID="TxLogradouro" runat ="server" style ="margin-right:20px; margin-left: 20px" Width="350px"></asp:TextBox>
               nº:<asp:TextBox ID="TxNumero" runat ="server" style ="margin-right:20px; margin-left: 20px" Width="50px"></asp:TextBox>
               <br />
               <br />
