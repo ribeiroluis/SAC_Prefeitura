@@ -90,7 +90,6 @@
     <Content Include="Default.aspx" />
     <Content Include="icone.ico" />
     <Content Include="Interface\AdmSistema.aspx" />
-    <Content Include="Interface\Demandas.aspx" />
     <Content Include="Interface\Login.aspx" />
     <Content Include="Account\ChangePassword.aspx" />
     <Content Include="Account\ChangePasswordSuccess.aspx" />
@@ -139,13 +138,6 @@
     </Compile>
     <Compile Include="Interface\AdmSistema.aspx.designer.cs">
       <DependentUpon>AdmSistema.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Interface\Demandas.aspx.cs">
-      <DependentUpon>Demandas.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Interface\Demandas.aspx.designer.cs">
-      <DependentUpon>Demandas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Interface\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

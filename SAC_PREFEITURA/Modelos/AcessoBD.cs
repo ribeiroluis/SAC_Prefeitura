@@ -188,6 +188,7 @@ namespace SAC_PREFEITURA.Modelos
     {
         DemandasTableAdapter dbDemandas = new DemandasTableAdapter();
         UsuarioDemandaTableAdapter dbUsuarioDemanda = new UsuarioDemandaTableAdapter();
+        TipoDemandaTableAdapter dbTipodemanda = new TipoDemandaTableAdapter();
 
         public bool IncluirDemanda(Demandas x)
         {
@@ -225,6 +226,50 @@ namespace SAC_PREFEITURA.Modelos
             {
                 dbUsuarioDemanda.Connection.Close();
             }
+        }
+
+        public DataTable RetornaDemandasPorIDSetor(int Idsetor)
+        {
+            return dbTipodemanda.RetornaPorIDSetor(Idsetor);
+        }
+
+        public DataTable RetornaDemandasPorIDSetorIDDemanda(int iddemanda, int idsetor)
+        {
+            ViewDemandasTableAdapter view = new ViewDemandasTableAdapter();
+            return view.GetData(idsetor, iddemanda);
+        }
+
+        public Demandas PesquisaDemandaPorID(int iddemanda)
+        {
+            Demandas x = new Demandas();
+            
+            DataRow LinhaTabela = dbUsuarioDemanda.RetornaDemandaCadastradaPorID(iddemanda).Rows[0];
+            
+            x.DataCadastro = DateTime.Parse(LinhaTabela["DATACADASTRO"].ToString()).ToShortDateString();
+
+            var aux = LinhaTabela["DATAINICIO"].ToString();
+
+            if (!aux.Equals(""))
+            {
+                x.DataInicio = DateTime.Parse(LinhaTabela["DATAINICIO"].ToString()).ToShortDateString();
+            }
+
+            aux = LinhaTabela["DATAFIM"].ToString();
+
+            if (!aux.Equals(""))
+            {
+                x.DataFinalizada = LinhaTabela["DATAFIM"].ToString();
+            }
+
+            return x;
+        }
+
+        public int AtualizaUsuarioDemanda(Demandas x)
+        {
+            if(x.DataFinalizada == null)
+                return dbUsuarioDemanda.AtualizaDemandaStatus(DateTime.Parse(x.DataInicio), null, x.StatusDemanda, x.idDemanda);
+            else
+                return dbUsuarioDemanda.AtualizaDemandaStatus(DateTime.Parse(x.DataInicio), DateTime.Parse(x.DataFinalizada), x.StatusDemanda, x.idDemanda);
         }
  
     }

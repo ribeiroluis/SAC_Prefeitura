@@ -19,6 +19,38 @@ namespace SAC_PREFEITURA.Contole
         private string comp;
         private string bairro;
         private string descricao;
+        private string datacadastro;
+        private string datainicio;
+        private bool status;
+        private string datafim;
+
+        public string DataFinalizada
+        {
+            get { return datafim; }
+            set { datafim = value; }
+        }
+        
+
+        public bool StatusDemanda
+        {
+            get { return status; }
+            set { status = value; }
+        }
+        
+
+        public string DataInicio
+        {
+            get { return datainicio; }
+            set { datainicio = value; }
+        }
+        
+
+        public string DataCadastro
+        {
+            get { return datacadastro; }
+            set { datacadastro = value; }
+        }
+        
 
         public string DescricaoDemanda
         {
@@ -74,6 +106,26 @@ namespace SAC_PREFEITURA.Contole
         {
             bdDemandas.IncluirDemanda(demanda);
             bdDemandas.IncluirUsuarioDemanda(cpf);
+        }
+
+        public DataTable RetornaDemandaPorSetor(int idSetor)
+        {
+            return bdDemandas.RetornaDemandasPorIDSetor(idSetor);
+        }
+
+        public DataTable RetornaDemandasPorSetorDemanda(int idDemanda, int Idsetor)
+        {
+            return bdDemandas.RetornaDemandasPorIDSetorIDDemanda(idDemanda, Idsetor);
+        }
+
+        public Demandas PesquisaDemandaPorID(int iddemanda)
+        {
+            return bdDemandas.PesquisaDemandaPorID(iddemanda);
+        }
+
+        public void AtualizarUsuarioDemanda(Demandas x)
+        {
+            bdDemandas.AtualizaUsuarioDemanda(x);
         }
 
         
